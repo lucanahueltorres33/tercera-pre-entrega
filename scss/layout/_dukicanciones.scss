@@ -1,0 +1,7 @@
+.dukicanciones {
+        width: 100%;  
+        height: 100%;
+        gap: 1.25rem;
+    @include grid(1fr 1fr 1fr , 1fr 1fr 1fr 1fr, center, center, "fila fila1 fila1""fila2 fila2 fila2""fila3 fila3 fila3");
+    padding: 50px 30px 40px 30px;
+}

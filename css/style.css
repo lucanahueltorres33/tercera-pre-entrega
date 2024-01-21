@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-image: url("../ASSETS/DUKI-HEADER.jpg");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%; }
+  .header div {
+    background-color: rgba(0, 0, 0, 0.509);
+    width: 100%;
+    height: 50px; }
+  .header ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: flex-end;
+    gap: 1.25rem;
+    padding: 13px 200px 0px 0px;
+    font: size 300px;
+    text-transform: uppercase;
+    font-family: 'Bai Jamjuree', sans-serif; }
+  .header a {
+    text-decoration: none;
+    color: white; }
+
+.background-index {
+  background-image: url("../ASSETS/DUKI-FONDO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.background-biografia {
+  background-image: url("../ASSETS/MAPA-ARG-FONDO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.h1-biografia {
+  background-color: white;
+  opacity: 50%;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  color: black; }
+
+.texto-biografia {
+  background-color: white;
+  opacity: 50%;
+  text-align: center;
+  padding: 10px 100px 19px 100px;
+  color: black;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin: 10px; }
+
+.background-videos {
+  background-image: url("../ASSETS/CORAZON-FONDO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+.background-musica {
+  width: 100%;
+  height: 100%;
+  background-image: url("../ASSETS/AZUL-FONDO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.background-shows {
+  background-image: url("../ASSETS/PLANETAS-FONDO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  width: 100%;
+  height: 100%; }
+
+.dukivideos {
+  width: 100%;
+  height: 100%;
+  gap: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: "fila fila1 fila1" "fila2 fila2 fila2" "fila3 fila3 fila3";
+  padding: 50px 30px 40px 30px; }
+
+.video-1, .video-2, .video-3, .video-4, .video-5, .video-6, .video-7, .video-8, .video-9 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.592);
+  padding: 20px 20px 40px 20px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 80px rgba(255, 255, 255, 0.511); }
+
+.video-1 video, .video-2 video, .video-3 video, .video-4 video, .video-5 video, .video-6 video, .video-7 video, .video-8 video, .video-9 video {
+  width: 100%;
+  height: 100%;
+  padding: 10px; }
+
+.nombre-cancion {
+  color: white;
+  text-align: center;
+  text-shadow: 4px 4px 3px rgba(25, 36, 33, 0.773);
+  font-family: 'Bai Jamjuree', sans-serif; }
+
+.h1-videos {
+  opacity: 50%;
+  text-align: center;
+  text-shadow: 4px 4px 3px rgba(72, 100, 93, 0.773);
+  padding: 35px 0px 0px 0px;
+  color: white;
+  font-family: 'Bai Jamjuree', sans-serif; }
+
+.dukicanciones {
+  width: 100%;
+  height: 100%;
+  gap: 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: "fila fila1 fila1" "fila2 fila2 fila2" "fila3 fila3 fila3";
+  padding: 50px 30px 40px 30px; }
+
+.imagen-show {
+  display: flex;
+  padding: 0px 0px 0px 180px;
+  justify-content: center;
+  width: 70%;
+  height: 85%; }
+
+.barra-contacto {
+  background-color: rgba(0, 0, 0, 0.694);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding-top: 15px; }
+  .barra-contacto .redes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5.625rem;
+    list-style: none; }
+
+@media (max-width: 768px) {
+  .dukivideos {
+    width: 100%;
+    height: 100%;
+    gap: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "fila1" "fila2" "fila3" "fila4" "fila5" "fila6" "fila7" "fila8" "fila9" "fila10";
+    padding: 50px 30px 40px 30px; }
+  .dukicanciones {
+    width: 100%;
+    height: 100%;
+    gap: .9375rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "fila1" "fila1" "fila2" "fila2" "fila3" "fila3" "fila4" "fila4" "fila5" "fila5";
+    padding: 50px 30px 40px 30px; } }
+
+@media (max-width: 428px) {
+  .header {
+    background-image: url("../ASSETS/DUKI-HEADER.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .header div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 0px 30px;
+    background-color: rgba(0, 0, 0, 0.526); }
+  .dukivideos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .dukicanciones {
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .barra-contacto {
+    background-color: rgba(0, 0, 0, 0.475);
+    width: 100%;
+    height: 100%;
+    align-items: center; }
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 4.375rem;
+    list-style: none; } }
+
+@media (max-width: 375px) {
+  .header {
+    background-image: url("../ASSETS/DUKI-HEADER.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .header div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 0px 30px;
+    background-color: rgba(0, 0, 0, 0.526); }
+  .dukivideos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .dukicanciones {
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .barra-contacto {
+    background-color: rgba(0, 0, 0, 0.475);
+    width: 100%;
+    height: 100%;
+    align-items: center; }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 165px;
+    justify-content: center;
+    list-style: none; } }
+
+@media (max-width: 320px) {
+  .header {
+    background-image: url("../ASSETS/DUKI-HEADER.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+  .header div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 0px 30px;
+    background-color: rgba(0, 0, 0, 0.526); }
+  .dukivideos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .dukicanciones {
+    width: 320px;
+    height: 100%;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column; }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 150px;
+    list-style: none; } }
+
+.row {
+  color: #d4d5d4;
+  margin: auto;
+  text-align: center; }
+
+.card-img-top {
+  width: 100%;
+  height: 100%; }
+
+.tituloCard {
+  color: black;
+  text-align: center; }
+
+.precioCard {
+  text-align: center; }

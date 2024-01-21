@@ -1,0 +1,31 @@
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+
+@import "./base/reset" ;
+@import "./layout/header";
+@import "./layout/background-index";
+@import "./layout/background-biografia";
+@import "./layout/background-videos";
+@import "./layout/background-musica";
+@import "./layout/background-shows";
+@import "./layout/dukivideos";
+@import "./layout/dukicanciones";
+@import "./layout/imagenshow";
+@import "./layout/footer";
+
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";
+@import "./layout/media/media320";
+
+
+@import "./components/cards";
+
+
+
+
+
+
+
+
